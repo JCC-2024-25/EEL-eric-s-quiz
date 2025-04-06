@@ -5,61 +5,29 @@ exit_outer_loop = False
 while not exit_outer_loop:
     topic = input("What topic would you like to be quizzed on?(Math, History, Books)")
     if topic.lower() == "math":
-        print("Great choice!")
         exit_outer_loop = True
-        while True:
-            difficulty = input("What difficulty level would you like? (easy, medium, hard)")
-            if difficulty.lower() == "easy":
-                print("Easy math questions coming up!")
-                break
-                #easy math questions here
-            elif difficulty.lower() == "medium":
-                print("Medium math questions coming up!")
-                break
-                #medium math questions here
-            elif difficulty.lower() == "hard":
-                print("Hard math questions coming up!")
-                break
-                #hard math questions here
-            else:
-                print("Sorry, I don't have that difficulty level. Please choose easy, medium, or hard.")
-    elif topic.lower() == "history":
         print("Great choice!")
-        exit_outer_loop = True
-        while True:
-            difficulty = input("What difficulty level would you like? (easy, medium, hard)")
-            if difficulty.lower() == "easy":
-                print("Easy history questions coming up!")
-                break
-                #easy history questions here
-            elif difficulty.lower() == "medium":
-                print("Medium history questions coming up!")
-                break
-                #medium history questions here
-            elif difficulty.lower() == "hard":
-                print("Hard history questions coming up!")
-                break
-                #hard history questions here
-            else:
-                print("Sorry, I don't have that difficulty level. Please choose easy, medium, or hard.")
+        print("Let's get started with some math questions.")
+        print("How we're going to do this is I will ask you a multiple choice question and you will have to answer it.")
+        print("If you get it right, you will get a point. If you get it wrong, you will not get a point.")
+        print("At the end of the quiz, I will tell you how many points you got.")
+        print("The questions will start easy and get harder as we go.")
+        print("Let's get started!")
     elif topic.lower() == "books":
         print("Great choice!")
-        exit_outer_loop = True
-        while True:
-            difficulty = input("What difficulty level would you like? (easy, medium, hard)")
-            if difficulty.lower() == "easy":
-                print("Easy book questions coming up!")
-                break
-                #easy book questions here
-            elif difficulty.lower() == "medium":
-                print("Medium book questions coming up!")
-                break
-                #medium book questions here
-            elif difficulty.lower() == "hard":
-                print("Hard book questions coming up!")
-                break
-                #hard book questions here
-            else:
-                print("Sorry, I don't have that difficulty level. Please choose easy, medium, or hard.")
-    else:
+        print("Let's get started with some book-related questions.")
+        print("How we're going to do this is I will ask you a multiple choice question and you will have to answer it.")
+        print("If you get it right, you will get a point. If you get it wrong, you will not get a point.")
+        print("At the end of the quiz, I will tell you how many points you got.")
+        print("The questions will start easy and get harder as we go.")
+        print("Let's get started!")
+    elif topic.lower() == "history":
+        print("Great choice!")
+        print("Let's get started with some history questions.")
+        print("How we're going to do this is, I will ask you a multiple choice question and you will have to answer it.")
+        print("If you get it right, you will get a point. If you get it wrong, you will not get a point.")
+        print("At the end of the quiz, I will tell you how many points you got.")
+        print("The questions will start easy and get harder as we go.")
+        print("Let's get started!")    
+else:
         print("Sorry, I don't have that topic. Please choose Math, History, or Books.")
