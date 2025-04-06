@@ -1,6 +1,6 @@
 name = input("Enter your name: ")
 print(f"Hello, {name}! Welcome to the quiz.")
-print("My name is Quizzy, and I will be quizzing you today.")
+print("My name is Quizzy, and I will be quizzing you today.😀")
 exit_outer_loop = False
 while not exit_outer_loop:
     topic = input("What topic would you like to be quizzed on?(Math, History, Books)")
